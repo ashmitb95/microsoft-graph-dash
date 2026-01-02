@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { api, CalendarMetadata } from '@/lib/api';
+import { api, CalendarMetadata, auth } from '@/lib/api';
 import WeeklyOrganicComparison from './WeeklyOrganicComparison';
 import CalendarView from './CalendarView';
 import TestEventModal from './TestEventModal';
